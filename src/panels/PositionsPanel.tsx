@@ -15,9 +15,8 @@ const ChangeCell = (props: GridCellProps) => {
 export default function PositionsPanel() {
   const [positions, setPositions] = React.useState<Position[]>();
   React.useEffect(() => {
-    getPositions().then((data: Position[]) => {
-      setPositions(data);
-    });
+    var res = getPositions()
+      setPositions(res);
   }, []);
 
   return (

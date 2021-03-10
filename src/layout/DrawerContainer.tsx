@@ -52,9 +52,9 @@ export default function DrawerContainer(props: React.PropsWithChildren<any>) {
               <span>
                 <Button icon="menu" look="flat" onClick={toggleDrawer} />
                 <span className="title">
-                  Bank customer churn prediction
-                  {/* <span className="divider">|</span> */}
-                  {/* <span className="fund">Tech Fund</span> */}
+                  ACME Stocks
+                  <span className="divider">|</span>
+                  <span className="fund">Tech Fund</span>
                 </span>
               </span>
               <img alt={user.name} src={user.img} />
