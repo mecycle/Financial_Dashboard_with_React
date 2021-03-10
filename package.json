@@ -1,6 +1,6 @@
 {
-  "name": "financial-dashboard",
-  "version": "0.1.0",
+  "name": "changed",
+  "version": "0.2.0",
   "private": true,
   "dependencies": {
     "@progress/kendo-data-query": "^1.5.4",
@@ -39,10 +39,7 @@
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ],
+    "extends": "react-app",
     "rules": {
       "curly": "warn"
     }

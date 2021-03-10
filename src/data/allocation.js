@@ -1,6 +1,6 @@
 export const allocation = [
-  { category: "Domestic", value: 48.5 },
-  { category: "International", value: 14.4 },
-  { category: "Bonds", value: 17.0 },
-  { category: "Cash", value: 20.1 },
+  { category: "France", value: 50.14 },
+  { category: "Spain", value: 24.77 },
+  { category: "Germany", value: 25.09 },
+
 ];

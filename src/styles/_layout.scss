@@ -6,16 +6,19 @@
   .panels {
     display: grid;
     grid-gap: 10px;
-    grid-template-columns: 225px auto auto;
+    grid-template-columns: 500px auto auto;
     grid-template-rows: auto auto;
   }
   .panel-info {
     grid-row: span 2;
-
+    grid-column: span 2
   }
   .panel-positions {
     grid-column: span 2;
   }
+  // .panel-allocation {
+  //   grid-column: span 1.5;
+  // }
 
   @media (max-width: 750px) {
     .panels {
