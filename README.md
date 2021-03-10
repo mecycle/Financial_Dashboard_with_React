@@ -3,4 +3,4 @@
 
 Using React to show the results and original data of Predicting Customer Churn
 
-This application was deployed on Heroku now: https://boiling-bayou-03155.herokuapp.com/
+This application was deployed on Heroku now: https://mysterious-chamber-68380.herokuapp.com/
